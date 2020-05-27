@@ -1,0 +1,31 @@
+{
+  "name": "coronakab",
+  "version": "1.0.0",
+  "description": "corona tracker app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "os",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.13",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "classnames": "^2.2.6",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "memory-cache": "^0.2.0",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.4",
+    "react-countup": "^4.3.3",
+    "request": "^2.88.2",
+    "wikijs": "^6.0.1"
+  }
+}
